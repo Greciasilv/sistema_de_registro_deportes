@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": 1,
+    "deporte": "Running",
+    "nombre": "Gatorade Caracas Rock 10K",
+    "fecha": "2026-10-04",
+    "hora": "07:00 AM",
+    "lugar": "Autopista Prados del Este, Caracas",
+    "precio": "80$",
+    "cupos_disponibles": 150
+  },
+  {
+    "id": 2,
+    "deporte": "Fútbol",
+    "nombre": "Torneo Guacamaya",
+    "fecha": "2026-06-20",
+    "hora": "09:00 AM",
+    "lugar": "Complejo Deportivo Universidad Monteávila",
+    "precio": "2$",
+    "cupos_disponibles": 30
+  },
+  {
+    "id": 3,
+    "deporte": "Ciclismo",
+    "nombre": " Paseo Los Próceres",
+    "fecha": "2026-07-12",
+    "hora": "06:30 AM",
+    "lugar": "Los Próceres, Caracas",
+    "precio": "10$",
+    "cupos_disponibles": 80
+  },
+  {
+    "id": 4,
+    "deporte": "padel",
+    "nombre":"Padel fest uma",
+    "fecha": "2026-08-2026",
+    "hora": "7:00pm",
+    "lugar": "Complejo Deportivo Universidad Monteávila",
+    "precio": "35$",
+    "cupos_disponibles": 16
+
+  }
+
+]
