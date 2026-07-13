@@ -36,7 +36,7 @@ if __name__ == "__main__":
                     nombre = input("Nombre completo: ")
                     email = input("Correo: ")
                     
-                    # Creamos el objeto usando la clase importada
+                    
                     nuevo_atleta = Usuario(cedula, nombre, email)
                     
                     if torneo_encontrado.inscribir_atleta(nuevo_atleta):
