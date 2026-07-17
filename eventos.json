@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "deporte": "Baloncesto",
+        "nombre": "Torneo 3vs3 de Baloncesto",
+        "fecha": "2026-09-12",
+        "hora": "14:00",
+        "lugar": "Gimnasio José Joaquín 'Papá' Carrillo (Parque Miranda)",
+        "precio": "5 USD",
+        "cupos_disponibles": 16,
+        "inscritos": []
+    },
+    {
+        "id": 2,
+        "deporte": "Futbol",
+        "nombre": "Copa Inter-Academias de Fútbol",
+        "fecha": "2026-09-15",
+        "hora": "09:00",
+        "lugar": "Cocodrilos Sports Park, El Paraíso",
+        "precio": "10 USD",
+        "cupos_disponibles": 7,
+        "inscritos": [
+            {
+                "cedula": "34176785",
+                "nombre": "Sebastian Almeida",
+                "email": "almediadudausdh@gmail.com"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "deporte": "Running",
+        "nombre": "Carrera de Montaña Ávila Trail 10K",
+        "fecha": "2026-10-04",
+        "hora": "06:30",
+        "lugar": "Sabas Nieves, Parque Nacional El Ávila",
+        "precio": "15 USD",
+        "cupos_disponibles": 120,
+        "inscritos": []
+    },
+    {
+        "id": 4,
+        "deporte": "Tenis de Mesa",
+        "nombre": "Clínica Abierta de Tenis de Mesa",
+        "fecha": "2026-09-20",
+        "hora": "10:00",
+        "lugar": "Centro Deportivo Eugenio Mendoza, Chacao",
+        "precio": "Gratis",
+        "cupos_disponibles": 30,
+        "inscritos": []
+    },
+    {
+        "id": 5,
+        "deporte": "Ciclismo",
+        "nombre": "Rodada Nocturna CCS",
+        "fecha": "2026-09-25",
+        "hora": "19:00",
+        "lugar": "Salida desde Plaza Altamira",
+        "precio": "Gratis",
+        "cupos_disponibles": 199,
+        "inscritos": [
+            {
+                "cedula": "34176785",
+                "nombre": "Sebastian Almeida",
+                "email": "almeidasebastian647@gmail.com"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "deporte": "Voleibol",
+        "nombre": "Torneo Relámpago de Voleibol de Arena",
+        "fecha": "2026-10-11",
+        "hora": "08:30",
+        "lugar": "Polideportivo Rafael Vidal, La Trinidad",
+        "precio": "8 USD",
+        "cupos_disponibles": 12,
+        "inscritos": []
+    }
+]

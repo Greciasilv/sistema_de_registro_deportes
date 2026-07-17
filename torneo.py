@@ -1,4 +1,3 @@
-
 from usuario import Usuario
 
 class Torneo:

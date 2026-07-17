@@ -1,4 +1,3 @@
-
 class Usuario:
     def __init__(self, cedula, nombre, email):
         self.cedula = cedula

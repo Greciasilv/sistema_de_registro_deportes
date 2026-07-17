@@ -1,4 +1,3 @@
-
 from gestor import GestorDeportes
 from usuario import Usuario
 
@@ -27,24 +26,26 @@ if __name__ == "__main__":
                 
                 torneo_encontrado = None
                 for t in gestor.lista_objetos_torneos:
-                    if t.id == id_elegido:
+                    if int(t.id) == id_elegido:
                         torneo_encontrado = t
                         break
-                
+                        
                 if torneo_encontrado:
                     cedula = input("Cédula: ")
                     nombre = input("Nombre completo: ")
                     email = input("Correo: ")
                     
-                    
                     nuevo_atleta = Usuario(cedula, nombre, email)
                     
                     if torneo_encontrado.inscribir_atleta(nuevo_atleta):
                         print(f"¡{nombre} inscrito con éxito!")
+                    else:
+                        print("No se pudo realizar la inscripción (quizás no hay cupos).")
                 else:
-                    print(" Torneo no encontrado.")
+                    print(" Torneo no encontrado. Verifica el ID en la lista.")
+                    
             except ValueError:
-                print("Entrada inválida.")
+                print("Entrada inválida. Por favor, introduce un número entero para el ID.")
 
         elif opcion == "3":
             gestor.guardar_datos()
